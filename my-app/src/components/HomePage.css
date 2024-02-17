@@ -168,7 +168,7 @@ h3 {
 /* Nav Header */
 
 	#header {
-	    background: #444;
+	    background: #1e4152;
 	    color: #bbb;
 	    height: 3.25em;
 	    left: 0;
@@ -202,6 +202,10 @@ h3 {
 	    right: 0.75em;
 	    top: 0;
 	    vertical-align: middle;
+	}
+
+	#nav:hover{
+		border-bottom: solid 3px white;
 	}
 	
 	#header nav > ul {
@@ -244,6 +248,7 @@ h3 {
 	#header .button:hover {
 	    background-color: rgba(153, 153, 153, 0.25);
 	}
+
 
 
 /* Footer */
