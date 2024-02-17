@@ -73,16 +73,19 @@ h3 {
 /* Banner */
 
 #banner {
+    background-image: url('../images/cityscape_grayscale.jpg');
+    background-attachment: fixed;
     background-color: #666;
-    /* background-repeat: ; */
-    color: #fff;
-    padding: 12em 0 20em 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 13em 0 13em 0;
     text-align: center;
 }
 
 #banner h2 {
     color: #fff;
-    font-size: 3.5em;
+    font-size: 4.5em;
     line-height: 1em;
     margin: 0 0 0.5em 0;
     padding: 0;
@@ -97,7 +100,7 @@ h3 {
 /* Main Section*/
 
 	#main {
-	    padding: 4em 0;
+	    padding: 2em 0;
 	}
 
 
@@ -165,7 +168,7 @@ h3 {
 	}
 
 
-/* Header */
+/* Nav Header */
 
 	#header {
 	    background: #444;
