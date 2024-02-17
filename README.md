@@ -9,5 +9,8 @@ Sitemap
     - Progress (Trivia, scavenger hunt, etc.)
 - Interactive map
     - Neighborhood pages
+
+Stretch Goals
 - Events Calendar
 - Get Involved
+- Neighborhood Search
