@@ -1,5 +1,35 @@
 /* you have to overload the css from leaflet*/
 .leaflet-container
 {
-	background-color: white;
+	background-color: rgb(244, 249, 252);
+	
+}
+
+.container{
+	display: grid;
+	align-items: center;
+	text-align: center;
+	height: 100%;
+	margin: 2%;
+	grid-template-columns: 3fr 1fr;
+	grid-gap: 10px;
+}
+
+.info-container
+{
+	display: flex;
+	flex-direction: column;
+	background-color: rgb(113, 113, 113);
+	height: 100%;
+}
+
+.info{
+	background-color: rgb(171, 171, 171);
+	flex-grow: 1;
+	padding-left: 5%;
+	padding-right: 5%;
+}
+
+button{
+	padding: 2%;
 }
