@@ -1,14 +1,19 @@
 import './App.css';
 import Map from "./components/Map";
-
-import { MapContainer, TileLayer, LayerGroup } from "react-leaflet";
+import HomePage from "./components/HomePage";
 import "leaflet/dist/leaflet.css";
+
+import {Routes, Route } from 'react-router-dom';
 
 function App() {
   return (
-    <div id="mapid">
-      <Map></Map>
-    </div>
+    <main>
+      <Routes>
+        <Route path="/" element={<HomePage/>} />
+        <Route path="/map" element={<Map/>} />
+      </Routes> 
+    </main>
+      
   );
 }
 
