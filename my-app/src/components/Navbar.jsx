@@ -1,10 +1,17 @@
 import React, { Component } from "react";
 import "./../components/Navbar.css";
+import logo from '../assets/icon.png'
 
 class Navbar extends Component {
   render() {
     return (
       <header id="header">
+
+         {/* Logo icon */}
+         <a href="/">
+          <img src={logo} alt="Logo" />
+        </a>
+
         <h1>
           <a href="/">UrbanTapestry</a>
         </h1>

@@ -9,16 +9,22 @@
 	width: 100%;
 }
 
-#header h1 {
+/* Styling for the logo */
+#header a img {
+	height: 4em; 
+	margin-right: 2px; 
+  }
+  
+  #header h1 {
 	color: inherit;
 	height: inherit;
-	left: 1.25em;
+	left: 4em; 
 	line-height: inherit;
 	margin: 0;
 	padding: 0;
 	position: absolute;
 	top: 0;
-}
+  }
 
 #header h1 a {
 	color: #fff;
