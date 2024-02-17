@@ -70,7 +70,7 @@ h3 {
 /* Banner */
 
 #banner {
-
+    background-image: url("../assets/cityscape_grayscale.jpg");
     background-attachment: fixed;
     background-color: #666;
     background-repeat: no-repeat;
