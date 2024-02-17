@@ -11,17 +11,6 @@ class HomePage extends React.Component {
         <title />
 
 		    <div id="page-wrapper">
-			{/* Header */}
-			<header id="header">
-			    <h1><a href="index.html">UrbanTapestry</a></h1><a href="index.html">
-									   </a><nav id="nav"><a href="index.html">
-											     </a><ul><a href="index.html">
-												     </a><li><a href="index.html" /><a href="about.html">About</a></li>
-												     <li><a href="map.html">Map</a></li>
-												     <li><a href="signin.html" className="button">Sign In</a></li>
-												 </ul>
-									       </nav>
-			</header>
 			{/* Title banner */}
 			<section id="banner">
 			    <h2>NYC Culture Explorer</h2>
