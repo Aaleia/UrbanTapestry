@@ -10,7 +10,9 @@ Sitemap
 - Interactive map
     - Neighborhood pages
 
+
 Stretch Goals
-- Events Calendar
 - Get Involved
 - Neighborhood Search
+- Game (trivia, scavenger hunt)
+- Events Calendar
