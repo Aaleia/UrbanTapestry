@@ -1,0 +1,5 @@
+/* you have to overload the css from leaflet*/
+.leaflet-container
+{
+	background-color: white;
+}
