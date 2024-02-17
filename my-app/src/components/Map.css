@@ -1,8 +1,7 @@
 /* you have to overload the css from leaflet*/
 .leaflet-container
 {
-	background-color: rgb(244, 249, 252);
-	
+	background-color: rgb(165, 229, 255);
 }
 
 .container{
@@ -19,8 +18,12 @@
 {
 	display: flex;
 	flex-direction: column;
-	background-color: rgb(113, 113, 113);
 	height: 100%;
+
+	background-color: #777;
+	border-radius: 6px;
+	box-shadow: 0 2px 0 0 #e5e5e5;
+	font-family: "Source Sans Pro", sans-serif;
 }
 
 .info{

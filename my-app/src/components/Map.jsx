@@ -8,10 +8,10 @@ class Map extends Component {
 	state={};
 	OnEachDistrict = (d, layer) =>{
 		// layer.bindPopup(d.properties.ntaname);
+		
 		layer.on({
 			click: this.districtInfo
 		});
-		// console.log(d);
 	}
 
 	districtInfo= (event) => {
@@ -27,7 +27,7 @@ class Map extends Component {
 					<MapContainer center = {[40.703312, -73.97968]} style={{height:"90vh" }}
 						zoom={11} scrollWheelZoom={false}>
 						<GeoJSON 
-							style={{weight: 1, color: "black"}} 
+							style={{weight: 1, fillOpacity: 0.5, fillColor: "green", color:"black"}} 
 							data={districts.features}
 							onEachFeature={this.OnEachDistrict}
 							/>
@@ -68,7 +68,9 @@ class Map extends Component {
 
             </div>
           ) : (
-            <div class="info">Select a district on the map to view details.</div>
+            <div class="info">
+							<h3>Select a district on the map to view details.</h3>
+						</div>
           )}
 				</div>
 			</div>
