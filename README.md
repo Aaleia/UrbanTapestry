@@ -22,6 +22,6 @@ Created for HackCUNY 2024 by:
 - A simple About Us Page displaying the team behind the project and a contact form
 - Several pages explaining the rich culture of NYC neighborhoods like China Town, Flushing, and Jackson Heights
 
-# Instructnions on how to Run the Project 
+# Instructions on how to Run the Project 
 - cd my-app
 - npm start
