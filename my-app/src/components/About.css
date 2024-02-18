@@ -6,11 +6,11 @@
   }
   
   h3{
-    color:black;
+      color:black;
   }
 
   p{
-    color:black;
+      color:black;
   }
   .card {
     color: black;
@@ -31,9 +31,18 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 10%; 
+    margin-top: 3.25em;
     flex-direction: column;
     column-gap: 1%;
+  }
+
+  .MissionContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    margin: 5% 10%;
   }
 
   .card-row-1{
@@ -50,3 +59,134 @@
     align-items: center;
     flex-direction: row;
   }
+
+  .AboutHeading {
+      background-image: url("../assets/cityscape_grayscale.jpg");
+    background-attachment: fixed;
+    background-color: black;
+    color: white;
+    padding: 60px 20px;
+    margin: 0;
+    width: 100%;
+    text-align: center;
+}
+
+  .card a {
+    display: inline-block;
+    padding: 8px 20px;
+    margin-top: 10px;
+    background-color: #0077B5;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.card a:hover {
+    background-color: #004466;
+}
+
+
+
+/* Form */
+
+form {
+    margin: 3em auto;
+    padding: 2em;
+    max-width: 600px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    background-color: #f9f9f9;
+}
+
+form > :last-child {
+    margin-bottom: 0;
+}
+
+form > .fields {
+    display: flex;
+    flex-wrap: wrap;
+    margin: -1em 0 2em -1em;
+}
+
+form > .fields > .field {
+    padding: 1em;
+    width: calc(100% - 2em);
+}
+
+form > .fields > .field.half {
+    width: calc(50% - 1em);
+}
+
+form > .fields > .field.third {
+    width: calc(33.333% - 0.67em);
+}
+
+form > .fields > .field.quarter {
+    width: calc(25% - 0.5em);
+}
+
+/* Field Labels */
+
+form label {
+    display: block;
+    margin-bottom: 0.5em;
+}
+
+/* Input Fields */
+
+form input[type="text"],
+form input[type="email"],
+form textarea {
+    width: 100%;
+    padding: 0.75em;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #fff;
+    transition: border-color 0.3s ease;
+}
+
+form input[type="text"]:focus,
+form input[type="email"]:focus,
+form textarea:focus {
+    border-color: #007bff;
+}
+
+/* Submit Button */
+
+form input[type="submit"] {
+    width: 100%;
+    padding: 0.75em;
+    border: none;
+    border-radius: 4px;
+    background-color: #19356b;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+form input[type="submit"]:hover {
+    background-color: #09094f;
+}
+
+/* Contact List */
+
+.contact {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.contact li {
+    display: inline-block;
+    margin-right: 1em;
+}
+
+.contact li:last-child {
+    margin-right: 0;
+}
+
+.inner {
+    text-align: center;
+    margin-top: 2em;
+}
