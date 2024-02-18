@@ -15,7 +15,7 @@ class Navbar extends Component {
         <nav id="nav">
           <ul>
             <li>
-              <a href="/">About</a>
+              <a href="/About">About</a>
             </li>
             <li>
               <a href="/map">Map</a>
