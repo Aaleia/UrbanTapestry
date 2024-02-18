@@ -7,7 +7,7 @@ class About extends React.Component {
       <div className="AboutContainer">
         <h2>About Us</h2>
         <p>This website is brought to you by 4 Computer Science students from CUNY!</p>
-        <p> As part of the CUNY Hackathon, four aspiring developers came together to help others learn more about NYC's Culture. </p>
+        <p> We made this website as part of CUNY Hacks. For three of us, it was our first hackathon! </p>
         <div className="card-container">
 
         <div className="card-row-1">
