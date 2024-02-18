@@ -15,16 +15,14 @@
 .map{
 	position: absolute;
 	position: sticky;
-	width: 100%;
+	width: 60%;
 	height: 100%;
-	margin:auto;
 }
 
 .info-container {
 	position: absolute;
 	width: 30%;
-	margin-left: 50%;
-	height: 100%;
+	margin-left: 55%;
 	
 	background-color: rgb(38, 144, 185);
 	border-radius: 6px;
