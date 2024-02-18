@@ -22,10 +22,10 @@
 .info-container {
 	position: absolute;
 	width: 30%;
-	margin-left: 45%;
+	margin-left: 60%;
 	height: 100%;
 	
-	background-color: rgb(38, 144, 185);
+	background-color: rgb(74, 179, 126);
 	border-radius: 6px;
 	box-shadow: 0 2px 0 0 rgb(6, 92, 59);;
 	font-family: "Source Sans Pro", sans-serif;
@@ -36,8 +36,9 @@
 
 .info {
 	overflow: hidden;
-	background-color: rgb(74, 179, 126);
-	flex-grow: 1;
+	background-color: rgb(74, 179, 126); 
+	
+	flex: 1;
 	padding-left: 5%;
 	padding-right: 5%;
 	font-size: 20px;
