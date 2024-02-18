@@ -1,5 +1,8 @@
 import React from "react";
 import "./HomePage.css";
+import img from "../assets/JH.webp";
+import img2 from "../assets/chinatown.webp";
+import img3 from "../assets/map-shot.png";
 
 class HomePage extends React.Component {
   render() {
@@ -10,57 +13,64 @@ class HomePage extends React.Component {
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title />
 
-        <div id="page-wrapper">
+          <div id="page-wrapper">
+	      
           {/* Title banner */}
           <section id="banner">
-            <h2>NYC Culture Explorer</h2>
+              <h2>NYC Culture Explorer</h2>
+	      <div class="arrow-down"></div>
           </section>
-          {/* Main Section*/}
+              {/* Main Section*/}
+	      
           <section id="main" className="container">
             <section className="box">
               <header>
-                <h2>What is this?</h2>
-                <p>
-                  We developed a vibrant cultural map tailored specifically for
-                  New York City, divided by its diverse neighborhoods. This
-                  resource is designed with young kids in mind, providing a
-                  platform for children to delve deeper into the rich tapestry
-                  of their city.
-                </p>
+                <h2>Your Gateway to the Cultural Tapestry of NYC</h2>
+                  <p>Welcome! Our site is your passport to explore what defines the heart and soul of the city that never sleeps. Use our interactive map to embark on a journey through the vibrant neighborhoods of New York City and discover their unique histories, landmarks, events, and untold stories. Let's work to preserve the nuances of this city's culture and uncover the wonders that make it truly exceptional.</p>
               </header>
+		<div className="map-container">
+		    <img src={img3} alt="Interactive Map" />
+		    <button className="map-button">Go to Map</button>
+		</div>
             </section>
-            <div className="row">
+
+	      <section className="feature-heading">
+		  <header>
+                      <h4>Featured Neighborhoods</h4>
+		  </header>
+	      </section>
+	      
+              <div className="row">
+		  
               <div className="col-6 col-12-narrower">
-                <section className="box">
-                  <h3>Map</h3>
-                  <p>
-                    We utilized Leaflet for React to craft an interactive map
-                    showcasing the various neighborhoods of New York City.{" "}
-                  </p>
+                  <section className="box">
+		      <img src={img} alt="Jackson Heights" />
+                  <h3>Jackson Heights</h3>
+                  <p>One of the most ethnically diverse neighborhoods in the city, known for its harmonious blend of cultures, languages, and traditions.</p>
                   <ul className="actions">
                     <li>
-                      <a href="/map" className="button">
-                        Learn More
-                      </a>
+                      <button onClick={() => window.location.href='/JacksonHeights'}>Learn More</button>
                     </li>
                   </ul>
                 </section>
               </div>
+		
               <div className="col-6 col-12-narrower">
-                <section className="box">
-                  <h3>Sign In</h3>
-                  <p>Users are able to login to the site using their Google accounts. </p>
+                  <section className="box">
+		      <img src={img2} alt="Chinatown" />
+                  <h3>Chinatown</h3>
+                    <p>An historic enclave nestled within the heart of the city, teeming with colorful markets, traditional shops, and bustling eateries.</p>
                   <ul className="actions">
                     <li>
-                      <a href="#" className="button">
-                        Learn More
-                      </a>
+                      <button onClick={() => window.location.href='/ChinaTown'}>Learn More</button>
                     </li>
                   </ul>
                 </section>
               </div>
+		
             </div>
           </section>
+	      
           {/* Footer */}
           <footer id="footer"></footer>
         </div>
