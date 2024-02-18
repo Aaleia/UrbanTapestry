@@ -17,7 +17,11 @@ Created for HackCUNY 2024 by:
 - Google OAuth
 
 # Features 
-- Interactive Map showcaing every neighborhood in NYC
-- A sign in page where users use their Google Accounts to log in
+- Interactive Map showcasing every neighborhood in NYC
+- A sign-in page where users use their Google Accounts to log in
 - A simple About Us Page displaying the team behind the project and a contact form
-- Several pages explaining the rich culture of NYC neighborhoods like China Town, Flushing, and Jackson Heights 
+- Several pages explaining the rich culture of NYC neighborhoods like China Town, Flushing, and Jackson Heights
+
+# Instructnions on how to Run the Project 
+- cd my-app
+- npm start
