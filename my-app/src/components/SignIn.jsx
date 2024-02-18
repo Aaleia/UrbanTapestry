@@ -39,17 +39,16 @@ function SignIn() {
   return (
     <div className="App">
       <div class="heading">User Login</div>
-      <div id="signInDiv">
-        {user && (
-          <div>
-            <img src={user.picture}></img>
-            <h1> {user.name}</h1>
-            {user.name && (
-              <button onClick={(e) => handleSignOut(e)}>Sign Out</button>
-            )}
-          </div>
-        )}
-      </div>
+      <div id="signInDiv"></div>
+      {user && (
+        <div>
+          <img src={user.picture}></img>
+          <h1> {user.name}</h1>
+          {user.name && (
+            <button onClick={(e) => handleSignOut(e)}>Sign Out</button>
+          )}
+        </div>
+      )}
     </div>
   );
 }
