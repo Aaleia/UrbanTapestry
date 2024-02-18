@@ -5,48 +5,40 @@
 }
 
 .container{
-	display: grid;
-	align-items: center;
-	text-align: center;
 	height: 100%;
-	margin: 5%;
-	grid-template-columns: 2fr 1fr;
-	grid-gap: 10px;
-	
+	width: 100%;
+	right: 0;
+	left: 0;
+	top: 0;
 }
 
 .map{
-	margin-top: 12.5%;
+	position: absolute;
 	position: sticky;
+	width: 60%;
+	height: 100%;
 }
 
-.info-container
-{
-	display: flex;
-	flex-direction: column;
-	height: 100%;
-
+.info-container {
+	position: absolute;
+	width: 30%;
+	margin-left: 55%;
+	
 	background-color: rgb(38, 144, 185);
 	border-radius: 6px;
 	box-shadow: 0 2px 0 0 rgb(6, 92, 59);;
 	font-family: "Source Sans Pro", sans-serif;
-	margin-top: 50%;
 	color: white;
-	padding-top: 20px;
-	
+	text-align: center;
+	line-height: 1;
 }
 
-.info{
+.info {
+	overflow: hidden;
 	background-color: rgb(74, 179, 126);
 	flex-grow: 1;
 	padding-left: 5%;
 	padding-right: 5%;
-	padding-top: 5%;
 	font-size: 20px;
 	color: white;
-	
-}
-
-button{
-	padding: 2%;
 }

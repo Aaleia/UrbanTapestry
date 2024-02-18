@@ -17,7 +17,7 @@ class ChinaTown extends Component {
         Chinatown, a historic enclave nestled within the heart of New York City, stands as a testament to the enduring spirit and vibrant culture of its inhabitants. Founded by Chinese immigrants in the late 19th century, Chinatown has evolved into a bustling neighborhood teeming with colorful markets, traditional shops, and aromatic eateries. Despite facing challenges such as discrimination and displacement, Chinatown remains a symbol of resilience and community, offering visitors a rich tapestry of cultural experiences. Explore Chinatown's captivating history and diverse offerings:
         </p>
         
-        <ul>
+        <ul style={{ listStyleType: "disc", marginLeft: "20px" }}>
           <li>Founded by Chinese immigrants in the late 19th century. </li>
           <li>Evolved into a bustling neighborhood with colorful markets and traditional shops. </li>
           <li>Home to renowned culinary scene featuring savory dim sum and aromatic noodle dishes. </li>

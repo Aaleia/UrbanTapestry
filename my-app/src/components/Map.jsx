@@ -24,7 +24,7 @@ class Map extends Component {
         <div class="map">
           <MapContainer
             center={[40.703312, -73.97968]}
-            style={{ height: "90vh" }}
+            style={{ height: "100vh" }}
             zoom={11}
             scrollWheelZoom={false}
           >
