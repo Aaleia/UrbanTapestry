@@ -44,7 +44,7 @@ class Map extends Component {
           <h2 style={{ color: "white" }}> <b>Welcome to the NYC Culture Map!</b></h2>
           {selectedDistrict ? (
             <div class="info">
-              <h3>{selectedDistrict.ntaname}</h3>
+              <h3 style={{ color: "white", padding: "15px" }}>{selectedDistrict.ntaname}</h3>
               <p>{selectedDistrict.boro_name}</p>
               {selectedDistrict.ntaname === "Jackson Heights" && (
                 <div>
@@ -92,7 +92,7 @@ class Map extends Component {
             </div>
           ) : (
             <div class="info">
-              <h3 style={{ color:"white" }} > <b>Select a district on the map to view details.</b></h3>
+              <h3 style={{ color:"white", padding: "20px" }} > <b>Select a district on the map to view details.</b></h3>
             </div>
           )}
         </div>
