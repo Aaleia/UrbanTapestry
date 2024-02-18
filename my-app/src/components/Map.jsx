@@ -73,7 +73,7 @@ class Map extends Component {
           </MapContainer>
         </div>
         <div class="info-container">
-          <h2 style={{ color: "white", backgroundColor: "rgb(38, 144, 185)"}}><b>Welcome to the NYC Culture Map!</b></h2>
+          <h2 style={{ color: "white", backgroundColor: "rgb(38, 144, 185)"}}><b> Interactive Neighborhood Map </b></h2>
           {selectedDistrict ? (
             <div class="info">
               <h3 style={{ color: "white", padding: "15px" }}>{selectedDistrict.ntaname}</h3>
@@ -96,7 +96,7 @@ class Map extends Component {
                     places to go are Phayul, Delhi Heights, Juanita's Cafe, and
                     many more!
                   </p>
-                  <a href="/JacksonHeights" style={{ color:"white" }}>Read More</a>
+                  <a href="/JacksonHeights" className="button">Read More</a>
                 </div>
               )}
 
@@ -116,7 +116,7 @@ class Map extends Component {
                     Noodletown, Joe's Shanghai and Wo Hop if you are in the
                     area!
                   </p>
-                  <a href="/ChinaTown" style={{ color:"white" }}>Read More</a>
+                  <a href="/ChinaTown" className="button">Read More</a>
                 </div>
               )}
             </div>
