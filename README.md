@@ -1,18 +1,3 @@
 # NYC Culture Map
 
-Sitemap
-- Homepage
-- About Us
-- Sign In
-    - User Profile
-    - Starred/favorite/learned neighborhoods
-    - Progress (Trivia, scavenger hunt, etc.)
-- Interactive map
-    - Neighborhood pages
-
-
-Stretch Goals
-- Get Involved
-- Neighborhood Search
-- Game (trivia, scavenger hunt)
-- Events Calendar
+A web app for exploring the rich cultural diversity of New York City's neighborhoods. It is an educational platform that celebrates the unique heritage, landmarks, and traditions that define each neighborhood, offering users the opportunity to discover, engage, and connect with the diverse tapestry of the city.
