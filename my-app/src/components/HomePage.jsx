@@ -30,7 +30,9 @@ class HomePage extends React.Component {
               </header>
 		<div className="map-container">
 		    <img src={img3} alt="Interactive Map" />
+        <a href="/map">
 		    <button className="map-button">Go to Map</button>
+        </a>
 		</div>
             </section>
 
