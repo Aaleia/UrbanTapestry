@@ -9,6 +9,7 @@ import SignIn from "./components/SignIn";
 import "leaflet/dist/leaflet.css";
 
 import { Routes, Route } from "react-router-dom";
+import Flushing from "./components/Flushing";
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
         <Route path="/Map" element={<Map />} />
         <Route path="/JacksonHeights" element={<JacksonHeights />} />
         <Route path="/ChinaTown" element={<ChinaTown />} />
+        <Route path="/Flushing" element={<Flushing />} />
         <Route path="/SignIn" element={<SignIn />} />
       </Routes>
     </main>

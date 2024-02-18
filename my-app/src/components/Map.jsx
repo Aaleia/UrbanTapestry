@@ -119,6 +119,23 @@ class Map extends Component {
                   <a href="/ChinaTown" className="button">Read More</a>
                 </div>
               )}
+
+
+			{selectedDistrict.ntaname === "Flushing" && (
+                <div>
+                  <p>
+                    Summary: In Flushing, visitors can explore a vibrant neighborhood filled with diverse cultures, including a large East Asian community. Enjoy authentic Chinese, Korean, and other Asian cuisines, browse through bustling markets, and experience the rich cultural heritage of this dynamic area.{" "}
+                  </p>
+                  <p>Languages: Mandarin, Korean, English, and others</p>
+                  <p>Population: 72,008 People</p>
+                  <p>
+                    Food: Flushing is known for its diverse culinary scene, offering a wide range of Asian cuisines, including Chinese, Korean, Japanese, and more. Be sure to try authentic dishes such as Korean BBQ, hot pot, dumplings, bubble tea, and more.
+                  </p>
+                  <a href="/Flushing" className="button">Read More</a>
+                </div>
+              )}
+
+
             </div>
           ) : (
             <div class="info">
