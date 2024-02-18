@@ -39,7 +39,7 @@ function SignIn() {
   return (
     <div className="App">
       <div class="heading">User Login</div>
-      <div class="signInDiv">
+      <div id="signInDiv">
         {user && (
           <div>
             <img src={user.picture}></img>

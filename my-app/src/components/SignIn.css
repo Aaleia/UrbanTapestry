@@ -1,27 +1,22 @@
 .App {
-  	display: flex;
-    justify-content: center;
-    align-items: center; /* Add this line */
-    margin-top: 15%;
-    flex-direction: column;
-    column-gap: 5%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 15%;
+  flex-direction: column;
+  column-gap: 15%;
 
-		background-color: rgb(175, 207, 236);
-		margin-left: 10%;
-		margin-right: 10%;
-		border-radius: 15px;
+  background-color: rgb(175, 207, 236);
+  margin-left: 20%;
+  margin-right: 20%;
+  border-radius: 15px;
+  padding: 5%;
+	padding-bottom: 10%;
 }
 
-.heading{
-	font-size: xxx-large;
-	padding-top: 5%;
-}
-
-.signInDiv {
-	 	display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    column-gap: 5%;
-		padding: 50px;
+.heading {
+  font-size: xxx-large;
+  padding-bottom: 5%;
+  font-weight: 400;
+	color: white;
 }
