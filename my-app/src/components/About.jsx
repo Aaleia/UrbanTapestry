@@ -14,12 +14,12 @@ class About extends React.Component {
           <div className="card">
             <h3>Aaleia Fernando</h3>
             <p>Hunter College</p>
-            <a href="https://www.linkedin.com/in/aaleia/">LinkedIn</a>
+            <a href="https://www.linkedin.com/in/aaleia/" target="_blank">LinkedIn</a>
           </div>
           <div className="card">
             <h3>Stephanie Koester</h3>
             <p>Queensborough Community College</p>
-            <a href="https://www.linkedin.com/in/stephkoester">LinkedIn</a>
+            <a href="https://www.linkedin.com/in/stephkoester" target="_blank">LinkedIn</a>
           </div>
           </div>
 
@@ -27,12 +27,12 @@ class About extends React.Component {
           <div className="card">
             <h3>Anita Prova</h3>
             <p>Hunter College</p>
-            <a href= "https://www.linkedin.com/in/anita-prova-950322245/">LinkedIn</a>
+            <a href= "https://www.linkedin.com/in/anita-prova-950322245/" target="_blank">LinkedIn</a>
           </div>
           <div className="card">
             <h3>Iman Ikram</h3>
             <p>Hunter College</p>
-            <a href="https://www.linkedin.com/in/iman-ikram-9868a1218/">LinkedIn</a>
+            <a href="https://www.linkedin.com/in/iman-ikram-9868a1218/" target="_blank">LinkedIn</a>
           </div>
           </div>
         </div>
