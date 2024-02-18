@@ -41,7 +41,7 @@ class Map extends Component {
           </MapContainer>
         </div>
         <div class="info-container">
-          <h2 style={{ color: "white" }}>Welcome to the NYC Culture Map!</h2>
+          <h2 style={{ color: "white" }}> <b>Welcome to the NYC Culture Map!</b></h2>
           {selectedDistrict ? (
             <div class="info">
               <h3>{selectedDistrict.ntaname}</h3>
@@ -92,7 +92,7 @@ class Map extends Component {
             </div>
           ) : (
             <div class="info">
-              <h3>Select a district on the map to view details.</h3>
+              <h3 style={{ color:"white" }} > <b>Select a district on the map to view details.</b></h3>
             </div>
           )}
         </div>
