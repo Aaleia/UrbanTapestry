@@ -65,7 +65,7 @@ class Map extends Component {
                     many more!
                   </p>
                   <br />
-                  <a href="/JacksonHeights">Read More</a>
+                  <a href="/JacksonHeights" style={{ color:"white" }}>Read More</a>
                 </div>
               )}
 
@@ -86,7 +86,7 @@ class Map extends Component {
                     area!
                   </p>
                   <br />
-                  <a href="/ChinaTown">Read More</a>
+                  <a href="/ChinaTown" style={{ color:"white" }}>Read More</a>
                 </div>
               )}
             </div>
