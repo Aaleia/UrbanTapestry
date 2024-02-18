@@ -21,7 +21,7 @@ class Navbar extends Component {
               <a href="/map">Map</a>
             </li>
             <li>
-              <a href="/" className="button">
+              <a href="/SignIn" className="button">
                 Sign In
               </a>
             </li>
