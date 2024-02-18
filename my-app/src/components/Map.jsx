@@ -134,6 +134,20 @@ class Map extends Component {
 			</div>
 			)}
 
+			{selectedDistrict.ntaname === "Pelham Parkway" && (
+			<div>
+				<p>
+				Summary: Pelham Parkway offers a serene and picturesque neighborhood nestled in the Bronx, New York City. With its tree-lined streets, green spaces, and proximity to Pelham Bay Park, it provides residents and visitors with a peaceful escape from the hustle and bustle of urban life.
+				</p>
+				<p>Languages: English, Spanish, Italian, Bengali, etc. </p>
+				<p>Population: 30,073 People</p>
+				<p>
+				Food: Pelham Parkway boasts a diverse culinary scene, with a wide range of restaurants and eateries offering delicious dishes from around the world. Visitors can enjoy Italian cuisine at authentic trattorias, savor Spanish tapas at local bistros, and indulge in international flavors at multicultural cafes and bakeries.
+				</p>
+				<a href="/PelhamParkway" className="button">Read More</a>
+			</div>
+			)}
+
 
 			{selectedDistrict.ntaname === "Flushing" && (
                 <div>
