@@ -120,6 +120,20 @@ class Map extends Component {
                 </div>
               )}
 
+			{selectedDistrict.ntaname === "Flatbush" && (
+			<div>
+				<p>
+				Summary: In Flatbush, visitors can immerse themselves in a vibrant neighborhood with a rich cultural tapestry. From its diverse population to its historic landmarks, Flatbush offers a unique blend of history, culture, and community.
+				</p>
+				<p>Languages: English, Caribbean Creole, Spanish, and various other languages reflecting the diverse community.</p>
+				<p>Population: 99,776 People </p>
+				<p>
+					Food: Flatbush is a culinary melting pot, offering a wide variety of cuisines from around the world. Visitors can enjoy Caribbean delicacies like jerk chicken and roti, explore African flavors at local restaurants, and indulge in Latin American dishes such as empanadas and pupusas. Don't miss the opportunity to try traditional Haitian cuisine, including griot and pikliz, at local eateries.
+				</p>
+				<a href="/Flatbush" className="button">Read More</a>
+			</div>
+			)}
+
 
 			{selectedDistrict.ntaname === "Flushing" && (
                 <div>
