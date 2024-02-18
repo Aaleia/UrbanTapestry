@@ -107,3 +107,11 @@
     background-color: rgba(153, 153, 190, 0.25);
     color: #fff;
 }
+
+
+#header nav>ul>li:nth-child(1) a:not(.button):hover,
+#header nav>ul>li:nth-child(2) a:not(.button):hover {
+    color: rgb(122, 235, 235);
+    padding: 0.5em 1em; 
+    border-radius: 6px; 
+}
