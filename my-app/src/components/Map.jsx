@@ -5,23 +5,50 @@ import "leaflet/dist/leaflet.css";
 import "./../components/Map.css";
 
 class Map extends Component {
-	state={};
-	OnEachDistrict = (d, layer) =>{
-		layer.on({
-			click: this.districtInfo
-		});
-	}
 
-	districtInfo= (event) => {
-		const districtProperties = event.target.feature.properties;
-    this.setState({ selectedDistrict: districtProperties });
-	};
+  state = { selectedDistrict: null, };
 
-	render() {
-		const { selectedDistrict } = this.state;
-		return (
-      <div class="container">
-        <div class="map">
+  OnEachDistrict = (district, layer) => {
+    layer.on({
+      click: this.districtInfo,
+      mouseover: this.highlightDistrict,
+      mouseout: this.resetHighlight,
+    });
+  };
+
+  districtInfo = (event) => {
+    const districtProperties = event.target.feature.properties;
+    this.setState((prevState) => ({
+      selectedDistrict:
+        prevState.selectedDistrict === districtProperties ? null : districtProperties, // toggle selected
+    }));
+  };
+
+  highlightDistrict = (event) => {
+    const layer = event.target;
+    layer.setStyle({
+      fillColor: "blue", // highlight color
+      weight: 2,
+      color: "black",
+    });
+  };
+
+  resetHighlight = (event) => { // checks if selected, reset after unselected
+    const layer = event.target;
+    layer.setStyle({
+	fillColor:
+	this.state.selectedDistrict === event.target.feature.properties ? "blue" : "green",
+      weight: 1,
+      color: "black",
+    });
+  };
+
+  render() {
+    const { selectedDistrict } = this.state;
+      
+    return (
+      <div className="container">
+        <div className="map">
           <MapContainer
             center={[40.703312, -73.97968]}
             style={{ height: "100vh" }}
@@ -29,15 +56,20 @@ class Map extends Component {
             scrollWheelZoom={false}
           >
             <GeoJSON
-              style={{
+              style={(feature) => ({
                 weight: 1,
                 fillOpacity: 0.5,
-                fillColor: "green",
+                fillColor:
+                  selectedDistrict && selectedDistrict.ntaname === feature.properties.ntaname
+                    ? "blue" // Highlight
+                    : "green", // Default
                 color: "black",
-              }}
+              })}
               data={districts.features}
               onEachFeature={this.OnEachDistrict}
             />
+
+    
           </MapContainer>
         </div>
         <div class="info-container">
