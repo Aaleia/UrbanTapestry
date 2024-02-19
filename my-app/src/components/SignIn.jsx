@@ -23,7 +23,7 @@ function SignIn() {
     /* global google */
     google.accounts.id.initialize({
       client_id:
-        "990897524537-e4bfsl2qgub4mckkichm61ta3citoa5j.apps.googleusercontent.com",
+        "google_client_id_variable",
       callback: HandleCallBackResonse,
     });
 
